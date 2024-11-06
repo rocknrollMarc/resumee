@@ -1,6 +1,9 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+require 'maruku'
+require 'makepdf'
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -12,6 +15,37 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page 'index.html', layout: false
+
+helpers do
+  def display_date(date)
+    if date.is_a?(Date)
+      date.strftime("%e %B %Y")
+    else
+      date
+    end
+  end
+end
+
+helpers do
+  def display_age(birthday)
+    now = Date.today
+    now.year - birthday.year - (Date.new(now.year, birthday.month, birthday.day) > now ? 1 : 0)
+  end
+end
+
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+
+configure :build do
+  activate :relative_assets
+  activate :pdfmaker
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

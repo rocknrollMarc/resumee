@@ -1,0 +1,168 @@
+headers:
+    profile: Profile
+    skills: Skills
+    languages: Languages
+    techs: Technical
+    jobs: Experiences
+    open-source: Open source Projects I have contributed
+    education: Education
+    links: Links
+    download: Download PDF
+    age: 35
+
+info:
+    name: Marc Bluemner
+    dob: 1980-01-12
+    shortdesc: Ruby on Rails full stack developer / JVM / Go / NodeJS / Workflow Optimizer / Agile Coach
+    email: marc.bluemner@gmail.com
+    phone: +49 (0)17650208241
+    homepage: http://rocknrollmarc.github.io/
+    address:
+        street: Reißeckstr. 13
+        city: Berlin
+        region: Berlin
+        postal_code: 12107
+        country: Germany
+    desc: |
+        Agile development, Scrum, Extreme Programming, TDD / BDD, Refactoring / Workflows and Tool
+
+skills:
+    - name: Web Development / Refactoring Legancy Enterprise systems / Agile Coaching
+      desc: Ruby on rails 4, Middleman, Sass / Compass, Node.js, Yeoman, Jquery / Jquery-UI, JS / Coffee, HTML5, rspec, cucumber, Factory_Girl, guard,  ActiveRecord, Mongoid, Redis,  spork, MongoDB, MySQL, Postgresql, Wakanda, Cucumber, Java, Jruby, Playframework2, scala, groovy, Padrino, Docker, Vagrant, Ansible,  Capybara, Selenium, Automated Browser testing, AngularJS, Emberjs
+    - name: JVM
+      desc: Java / Clojure / Scala / Groovy / Playframework 2 / Grails / Spring Framework / Vaadin / Spock / Cucumber JVM / Maven / Gradle / Java EE / Eclipse / Spring STS / Thucydides (Serenity BDD)
+    - name: QA
+      desc: Cucumber / Capybara / Factory_Girls / Ansible / Vagrant / Docker / Jasmine / Mocha / Karma / Aruba / CukeSalad / Minitest / Rspec
+    - name: Apps
+      desc: iOS7, Android, Phonegap, xcode, VIM, IntelliJ
+    - name: Agile Coach / Workflow optimizer
+      desc: Scrum / Kanban / ScrumBan / Product Planning / Rapid Prototyping / Behaviour driven development / Tool selection and optimization / Domain Drive Designe
+    - name: Go
+      desc: Command line apps / Martini / Gin / Revel / Beego / Docker
+    - name: Nosql
+      desc: Mongoid / Mongoose / Riak / Reddis / RethinkDB / mgo
+    - name: Workflow optimizing
+      desc: Pivotal tracker / Trello / Heroku / googleappenigne / Ansible / Docker / Vagrant / Hugo / Alchems_cms / locomotive_cms / Clojure script / Pickler / Wercker / Docker_hub / Tutum
+    - name: Front-end
+      desc: Zurb-foundation 5 / Twitter bootstrap 4 / Middleman / AngularJS / EmberJS / Sass / Jade / Handlebars / Haml / Slim / Coffeescript
+
+languages:
+    - name: English
+      level: Native language
+    - name: German
+      level: Native language
+    - name: Spanish
+      level: good
+
+alphabetsoup:
+    - XHTML
+    - CSS / Sass
+    - Javascript
+
+    - Jquery
+    - Ruby
+    - Rails
+    - Docker
+    - Selenium
+    - Capybara
+    - Watir
+    - Git-flow
+    - Alchemy-CMS
+    - Shopify 
+    - Git
+    - Playframework2
+    - Go
+    - Ansible
+    - OS X
+    - ZSH 
+    - Linux
+    - Android
+    - ios
+
+links:
+    - name: Weisserzauber
+      url: www.Weisserzauber-jungfernstieg.de
+    - name: github
+      url: https://github.com/rocknrollMarc 
+    - name: Linkedin
+      url: https://www.linkedin.com/profile/view?id=81309041&trk=spm_pic   
+    - name: xing
+      url: https://www.xing.com/profile/Marc_Bluemner?sc_o=mxb_p
+    - name: Octopress Blog
+      url: http://rocknrollmarc.github.io/
+    - name: Liquidlabs
+      url: http://liquidlabs.de
+    - name: Pflege.de
+      url: http://pflege.de
+    - name: iverbum / ipieta 
+      url: http://www.ipieta.com
+
+jobs:
+    - title:  Ruby on Rails developer / QA
+      company: Webcare LBJ GmbH
+      dates:
+        start: 2014
+        end: 2015
+      desc: |
+        Ruby on rails / rspec / Selenium - webdriver / Capybara / Backbone / Coffeescript / CMS / CRM / Sublime
+
+    - title:  Ruby on Rails full stack developer / AnguarlJS 
+      company: MagicLabs GmbH
+      dates:
+        start: 2014
+        end: 2014
+      desc: |
+        Ruby on rails / rspec / Selenium - webdriver / Capybara / Alchemy_CMS / Coffeescript / CMS / AngularJS / Sublime
+
+    - title:  Ruby on Rails developer / Head of QA
+      company: Liquidlabs GmbH
+      dates:
+        start: 2013
+        end: Present
+      desc: |
+        Ruby on rails / Vagrant / Docker / Padrino / Cucumber / Capybara / Node.js / Coffeescript / mongoid / mongoose /Kanban / AngularJS /Batman
+
+    - title: Censhare / Java developer
+      company: MSP AG
+      dates: 
+          start: 2013
+          end: 2013 / December
+      desc: |
+        AngularJS, Java, Censhare online channel, Playframework2, scala, EasyB, thucydides, Scrum, Emacs
+
+
+    - title: iOS / Android / Web Developer
+      company: Mampaey design and development
+      dates: 
+          start: 2012 
+          end: 2013
+      desc: |
+          iOS7, Android, xcode, VIM, jenkins, Ant, gradle, html5, javascript, MySQL, MongoDB, Compass, yeoman, active record, rails4, foundation 5, rspec, cucumber  
+
+
+    - title: Azubi
+      company: Fuchs-EDV
+      dates: 
+          start: 2011
+          end: 2012
+      desc: |
+           4D , Sass/ Compass, Foundation 4, 5, Gumby, Javascript / Coffeescript, Ruby on rails 4, TDD, BDD, VIM, yeoman, MySQL
+    
+    - title: Web developer
+      company: SAP AG
+      dates:
+          start: 2010
+          end: 2011
+      desc: |
+          HTML, XHTML, Homesite, ABAP, CSS 
+
+    - title: Webdeveloper
+      company: Appdream
+      dates: 
+          start: 2009
+          end: 2010
+      desc: |
+          Java, eclipse, html5, NFC
+
+
+
